@@ -1,0 +1,365 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Alessandra Caldart · Estética Avançada · Setor Bueno, Goiânia</title>
+<meta name="description" content="Alessandra Caldart Estética Avançada no Setor Bueno, Goiânia: endermologia, radiofrequência, botox e cuidado de verdade. Nota 4,9 no Google.">
+<link rel="stylesheet" href="fonts/fonts.css">
+<style>
+:root{--paper:#fbf6f3;--wine:#2a1820;--ink:#1c0f15;--rose:#c48b7b;--rose-l:#efc4b6;--pink:#df4f8b;--blush:#f3dfdf;--muted:#76616a;--display:'Sentient',Georgia,serif;--text:'Synonym',system-ui,sans-serif;--script:'Pinyon Script',cursive;--ease:cubic-bezier(.2,.8,.2,1);--bounce:cubic-bezier(.34,1.56,.64,1)}
+*{box-sizing:border-box;margin:0;padding:0}
+html{scroll-behavior:smooth;scrollbar-width:thin;scrollbar-color:#c48b7b #f3e7e4}
+::-webkit-scrollbar{width:10px}::-webkit-scrollbar-track{background:#f3e7e4}::-webkit-scrollbar-thumb{background:linear-gradient(180deg,#e2b3a6,#c48b7b);border-radius:10px;border:2px solid #f3e7e4}
+body{background:var(--paper);color:var(--wine);font-family:var(--text);font-weight:400;font-size:17px;line-height:1.7;overflow-x:hidden;-webkit-font-smoothing:antialiased}
+body.lock{overflow:hidden}
+img{display:block;max-width:100%}a{color:inherit;text-decoration:none}button{font:inherit;color:inherit}
+:focus-visible{outline:2px solid var(--pink);outline-offset:3px}::selection{background:var(--pink);color:#fff}
+#neb{position:fixed;inset:0;width:100%;height:100%;z-index:-1;pointer-events:none;background:var(--paper)}
+
+/* palavras que saltam */
+.wd{display:inline-block;overflow:hidden;vertical-align:top;padding:0 .04em .14em;margin-bottom:-.14em}
+.wd>i{display:inline-block;font-style:inherit;transform:translateY(115%) skewY(8deg);transition:transform 1.1s var(--bounce);transition-delay:calc(var(--i)*70ms)}
+.in .wd>i{transform:none}
+.rev{opacity:0;transform:translateY(26px);transition:opacity .9s,transform 1s var(--ease)}.rev.in{opacity:1;transform:none}
+
+/* abertura: uma joia se desenha */
+#intro{position:fixed;inset:0;z-index:200;background:#1c0f15;display:grid;place-items:center}
+#intro .box{text-align:center}
+#intro svg{width:54px;height:auto;overflow:visible}
+#intro svg path{fill:none;stroke:var(--rose-l);stroke-width:1.6;stroke-linejoin:round;stroke-linecap:round;stroke-dasharray:1;stroke-dashoffset:1}
+#intro .sig{margin-top:14px;font-family:var(--script);font-size:30px;line-height:1.1;color:var(--rose-l);opacity:0;transform:translateY(6px)}
+#intro .sb{margin-top:6px;font-size:9px;letter-spacing:.5em;text-transform:uppercase;color:#a98a86;opacity:0;padding-left:.5em}
+
+nav{position:fixed;top:0;left:0;right:0;z-index:70;display:flex;align-items:center;justify-content:space-between;padding:22px 5vw;color:#fff;transition:padding .5s,color .4s}
+nav::after{content:"";position:absolute;inset:0;z-index:-1;background:rgba(251,246,243,.94);backdrop-filter:blur(14px);box-shadow:0 1px 0 rgba(42,24,32,.08);opacity:0;transition:opacity .5s}
+nav.s{padding:12px 5vw;color:var(--wine)}nav.s::after{opacity:1}
+.brand{font-family:var(--script);font-size:31px;line-height:1}
+nav ul{display:flex;gap:30px;list-style:none;font-size:15px;font-weight:500}
+nav ul a{position:relative;padding:4px 0}nav ul a::after{content:"";position:absolute;left:0;right:0;bottom:0;height:1px;background:currentColor;transform:scaleX(0);transform-origin:right;transition:transform .5s var(--ease)}nav ul a:hover::after{transform:scaleX(1);transform-origin:left}
+.pill{display:inline-flex;align-items:center;gap:10px;padding:12px 24px;border-radius:99px;background:var(--pink);color:#fff;font-size:14px;font-weight:500;transition:background .3s,transform .4s var(--ease)}
+.pill:hover{background:#c63f78;transform:translateY(-2px)}.pill.ghost{background:transparent;box-shadow:inset 0 0 0 1px rgba(255,255,255,.55)}.pill.ghost:hover{background:rgba(255,255,255,.14)}
+.burger{display:none;background:none;border:0;width:34px;height:20px;position:relative;z-index:2}
+.burger i{position:absolute;left:0;right:0;height:1.5px;background:currentColor;transition:.4s}.burger i:nth-child(1){top:5px}.burger i:nth-child(2){top:14px}
+.burger.o i:nth-child(1){top:9px;transform:rotate(45deg)}.burger.o i:nth-child(2){top:9px;transform:rotate(-45deg)}
+
+/* hero com joia 3D */
+.hero{position:relative;height:100svh;min-height:620px;overflow:hidden;background:radial-gradient(70% 70% at 72% 45%,#5a1f3a 0%,#2b1220 55%,#1c0f15 100%);color:#fff}
+#gem{position:absolute;inset:0;width:100%;height:100%;display:block}
+.hcopy{position:absolute;left:5vw;bottom:12vh;z-index:2;max-width:620px;pointer-events:none}.hcopy a{pointer-events:auto}
+.kicker{font-size:14px;color:var(--rose-l);margin-bottom:16px;display:flex;align-items:center;gap:12px}.kicker::before{content:"";width:30px;height:1px;background:var(--rose-l)}
+h1{font-family:var(--display);font-weight:400;font-size:clamp(36px,4.8vw,74px);line-height:1.04;letter-spacing:-.025em}
+h1 em{font-style:italic;color:var(--rose-l)}
+.lead{margin-top:18px;max-width:40ch;color:rgba(255,255,255,.78)}
+.hrow{display:flex;gap:12px;align-items:center;margin-top:28px;flex-wrap:wrap}
+.hrate{font-size:14px;color:rgba(255,255,255,.8);display:flex;align-items:center;gap:8px}.hrate b{font-family:var(--display);font-weight:400;font-size:24px;color:#fff}.hrate i{font-style:normal;color:var(--rose-l);letter-spacing:2px}
+.hscroll{position:absolute;right:5vw;bottom:5vh;z-index:2;font-size:12px;color:rgba(255,255,255,.55);display:flex;align-items:center;gap:12px;writing-mode:vertical-rl}.hscroll::after{content:"";width:1px;height:46px;background:linear-gradient(var(--rose-l),transparent)}
+
+.wrap{padding:clamp(80px,10vw,150px) 5vw}
+h2{font-family:var(--display);font-weight:400;font-size:clamp(28px,3.3vw,48px);line-height:1.08;letter-spacing:-.02em}
+.sub{color:var(--muted);max-width:42ch}
+.ic{fill:none;stroke:var(--rose);stroke-width:1.5;stroke-linecap:round;stroke-linejoin:round}
+
+.manifest{padding:clamp(90px,12vw,170px) 5vw clamp(30px,5vw,70px)}
+.manifest p{font-family:var(--display);font-size:clamp(25px,3.6vw,54px);line-height:1.14;letter-spacing:-.02em;max-width:22em}
+.manifest .w{opacity:.17;transition:opacity .5s}.manifest .w.on{opacity:1}
+
+/* sobre: foto larga + selo girando */
+.about .ph{position:relative;aspect-ratio:21/9;overflow:hidden;clip-path:polygon(0 0,0 0,0 100%,0 100%);transition:clip-path 1.6s var(--ease)}
+.about .ph.in{clip-path:polygon(0 0,100% 0,100% 100%,0 100%)}
+.about .ph img{width:100%;height:125%;object-fit:cover;object-position:50% 55%}
+.about .seal{position:absolute;right:5vw;top:calc(100% - 20px);width:130px;height:130px;transform:translateY(-50%);background:var(--paper);border-radius:50%;display:grid;place-items:center;box-shadow:0 20px 40px -18px rgba(42,24,32,.5);z-index:3}
+.seal svg{width:100%;height:100%;animation:spin 18s linear infinite;position:absolute;inset:0}.seal text{font-size:10.4px;letter-spacing:.28em;fill:var(--wine);text-transform:uppercase}
+.seal b{font-family:var(--display);font-weight:400;font-size:30px;color:var(--pink)}
+@keyframes spin{to{transform:rotate(360deg)}}
+.aboutbox{display:grid;grid-template-columns:5fr 6fr;gap:7vw;margin-top:clamp(50px,6vw,90px);align-items:start}
+.aboutbox p{max-width:50ch;color:#4b3a42}
+.facts{list-style:none;display:grid;gap:18px;margin-top:28px}.facts li{display:grid;grid-template-columns:42px 1fr;gap:16px;align-items:center;font-size:16px}.facts svg{width:42px;height:42px}.facts b{display:block;font-weight:500}
+
+/* tratamentos: cartas que viram */
+.treat{background:var(--blush)}
+.treat .head{display:flex;justify-content:space-between;align-items:flex-end;gap:30px;flex-wrap:wrap;margin-bottom:56px}
+.cards{display:grid;grid-template-columns:repeat(4,1fr);gap:20px;perspective:1600px}
+.flip{position:relative;height:400px;cursor:pointer;animation:flo 6s ease-in-out infinite}
+.flip:nth-child(2){animation-delay:-1.5s}.flip:nth-child(3){animation-delay:-3s}.flip:nth-child(4){animation-delay:-4.5s}
+@keyframes flo{50%{transform:translateY(-12px)}}
+.fi{position:absolute;inset:0;transform-style:preserve-3d;transition:transform 1s var(--ease)}
+.flip:hover .fi,.flip.on .fi{transform:rotateY(180deg)}
+.fc,.fb{position:absolute;inset:0;backface-visibility:hidden;padding:30px 26px;display:flex;flex-direction:column;justify-content:space-between}
+.fc{background:var(--paper);box-shadow:0 30px 60px -34px rgba(42,24,32,.55),inset 0 0 0 1px rgba(196,139,123,.4)}
+.fb{background:linear-gradient(160deg,#3a1a28,#1c0f15);color:#f6e7e2;transform:rotateY(180deg);box-shadow:0 30px 60px -30px rgba(42,24,32,.8)}
+.fc .ic{width:96px;height:96px}.fc .ic path,.fc .ic circle{stroke-dasharray:1;stroke-dashoffset:1;transition:stroke-dashoffset 2s var(--ease)}
+.cards.in .fc .ic path,.cards.in .fc .ic circle{stroke-dashoffset:0}
+.fc h3,.fb h3{font-family:var(--display);font-weight:400;font-size:27px;line-height:1.08;letter-spacing:-.01em}
+.fc small{font-size:13px;color:var(--rose)}
+.fb ul{list-style:none;display:grid;gap:8px;font-size:16px}.fb li::before{content:"";display:inline-block;width:6px;height:6px;border-radius:50%;background:var(--pink);margin-right:12px;vertical-align:middle}
+.fb a{font-size:14px;color:var(--rose-l);border-bottom:1px solid var(--rose);align-self:flex-start;padding-bottom:2px}
+
+/* sua visita: caminho com orbe */
+.jr{height:360vh;position:relative}
+.jstick{position:sticky;top:0;height:100vh;overflow:hidden;background:radial-gradient(80% 80% at 20% 20%,#3b1727,#1c0f15 70%);color:#fff}
+.jhead{position:absolute;left:5vw;top:96px;z-index:3}.jhead h2{color:#fff}.jhead p{color:#c9aeb0;margin-top:6px}
+.jbox{position:absolute;left:5vw;right:5vw;top:24vh;bottom:6vh}
+#jsvg{position:absolute;inset:0;width:100%;height:100%;overflow:visible}
+#jpath0{fill:none;stroke:rgba(239,196,182,.2);stroke-width:2;stroke-dasharray:3 9;stroke-linecap:round}
+#jpath{fill:none;stroke:url(#jg);stroke-width:3;stroke-linecap:round;filter:drop-shadow(0 0 8px rgba(223,79,139,.8))}
+#orb{position:absolute;left:0;top:0;width:26px;height:26px;margin:-13px 0 0 -13px;border-radius:50%;background:radial-gradient(circle,#fff,#ffb5d3 45%,#df4f8b);box-shadow:0 0 0 8px rgba(223,79,139,.25),0 0 40px 14px rgba(223,79,139,.7);will-change:transform}
+.jn{position:absolute;width:min(280px,22vw);padding:22px 24px;background:rgba(255,255,255,.07);backdrop-filter:blur(10px);box-shadow:inset 0 0 0 1px rgba(239,196,182,.3);opacity:.18;transform:scale(.92);transition:opacity .8s,transform .9s var(--bounce)}
+.jn.on{opacity:1;transform:none}
+.jn .n{font-family:var(--display);font-style:italic;font-size:42px;line-height:1;color:var(--pink)}
+.jn b{display:block;font-family:var(--display);font-weight:400;font-size:24px;margin-top:6px}.jn p{font-size:15px;color:#d9c3c3;margin-top:4px}
+
+/* galeria: colunas que correm com a rolagem */
+.gal{overflow:hidden}
+.gal .head{display:flex;justify-content:space-between;align-items:flex-end;gap:30px;flex-wrap:wrap;margin-bottom:40px}
+.cols{display:grid;grid-template-columns:repeat(3,1fr);gap:16px;height:min(125vh,980px);overflow:hidden;position:relative}
+.col{display:grid;gap:16px;align-content:start;will-change:transform}
+.col figure{overflow:hidden;position:relative}.col img{width:100%;height:100%;object-fit:cover}
+.col figcaption{position:absolute;left:14px;bottom:10px;font-size:14px;color:#fff;text-shadow:0 1px 12px rgba(0,0,0,.6)}
+.cols::after{content:"";position:absolute;inset:0;pointer-events:none;background:linear-gradient(var(--paper),transparent 12%,transparent 88%,var(--paper));opacity:.0}
+
+/* depoimentos: baralho */
+.voices{background:var(--blush);overflow:hidden}
+.voices .grid{display:grid;grid-template-columns:4fr 7fr;gap:7vw;align-items:center}
+.score{margin-top:22px;display:flex;align-items:baseline;gap:12px;color:var(--muted);font-size:15px}.score b{font-family:var(--display);font-weight:400;font-size:60px;color:var(--wine);line-height:1}
+.deck{position:relative;height:330px;max-width:620px}
+.dc{position:absolute;inset:0;padding:34px 36px;background:var(--paper);box-shadow:0 30px 60px -30px rgba(42,24,32,.55),inset 0 0 0 1px rgba(196,139,123,.35);transition:transform .9s var(--ease),opacity .9s;cursor:pointer;display:flex;flex-direction:column;justify-content:space-between}
+.dc .st{color:var(--pink);letter-spacing:3px;font-size:14px}
+.dc p{font-family:var(--display);font-size:clamp(19px,1.9vw,26px);line-height:1.3}
+.dc cite{font-style:normal;font-size:14px;color:var(--muted)}
+.dnav{display:flex;gap:10px;margin-top:26px}.dnav button{width:46px;height:46px;border-radius:50%;border:0;background:none;box-shadow:inset 0 0 0 1px rgba(42,24,32,.3);cursor:pointer;transition:.3s}.dnav button:hover{background:var(--wine);color:#fff}
+
+.faq .grid{display:grid;grid-template-columns:4fr 7fr;gap:7vw;align-items:start}
+.faq .list{border-top:1px solid rgba(42,24,32,.18)}.q{border-bottom:1px solid rgba(42,24,32,.18)}
+.q button{width:100%;display:flex;justify-content:space-between;align-items:center;gap:20px;padding:22px 0;background:none;border:0;cursor:pointer;text-align:left;font-family:var(--display);font-size:clamp(18px,1.8vw,24px);line-height:1.2}
+.q .pm{flex:none;width:30px;height:30px;border-radius:50%;box-shadow:inset 0 0 0 1px var(--rose);position:relative;transition:transform .5s var(--ease),background .4s}
+.q .pm::before,.q .pm::after{content:"";position:absolute;left:50%;top:50%;width:11px;height:1.5px;background:var(--wine);transform:translate(-50%,-50%);transition:transform .5s var(--ease),background .3s}
+.q .pm::after{transform:translate(-50%,-50%) rotate(90deg)}.q.open .pm{background:var(--pink);transform:rotate(180deg)}.q.open .pm::before,.q.open .pm::after{background:#fff}.q.open .pm::after{transform:translate(-50%,-50%) rotate(0)}
+.q .a{display:grid;grid-template-rows:0fr;transition:grid-template-rows .6s var(--ease)}.q.open .a{grid-template-rows:1fr}.q .a>div{overflow:hidden}.q .a p{padding:0 50px 22px 0;color:#4b3a42;max-width:56ch}
+
+/* final: aurora + cartão */
+.final{position:relative;background:var(--ink);color:#f4e6e1;overflow:hidden;padding:clamp(90px,11vw,160px) 5vw 0}
+.final .aur{position:absolute;border-radius:50%;filter:blur(70px);opacity:.55;animation:aur 16s ease-in-out infinite alternate}
+.final .a1{width:520px;height:520px;left:-120px;top:-80px;background:#df4f8b}.final .a2{width:460px;height:460px;right:-100px;bottom:-60px;background:#c48b7b;animation-delay:-6s}.final .a3{width:340px;height:340px;left:45%;top:30%;background:#7b2a52;animation-delay:-10s}
+@keyframes aur{to{transform:translate(90px,60px) scale(1.2)}}
+#sp2{position:absolute;inset:0;width:100%;height:100%;pointer-events:none}
+.final .grid{position:relative;display:grid;grid-template-columns:1.2fr 1fr;gap:6vw;align-items:center}
+.final .sig{font-family:var(--script);font-size:clamp(46px,6vw,92px);line-height:1;color:var(--rose-l)}
+.final h2{color:#fff;margin-top:10px}.final .t{color:#d7c3c3;max-width:42ch;margin-top:14px}.final .pill{margin-top:26px}
+.ticket{background:rgba(255,255,255,.07);backdrop-filter:blur(14px);box-shadow:inset 0 0 0 1px rgba(239,196,182,.3);padding:26px 28px;display:grid;gap:14px}
+.ticket div.r{padding-bottom:12px;border-bottom:1px dashed rgba(239,196,182,.3)}.ticket small{display:block;font-size:13px;color:var(--rose-l)}.ticket span{font-family:var(--display);font-size:20px;line-height:1.3}
+.mm{position:relative;height:170px;overflow:hidden;background:#2a1820}.mm iframe{position:absolute;inset:0;width:100%;height:100%;border:0;filter:grayscale(1) invert(.9) contrast(.85) hue-rotate(300deg)}
+.mm a{position:absolute;right:8px;bottom:8px;z-index:2;background:var(--paper);color:var(--wine);font-size:13px;font-weight:500;padding:6px 14px;border-radius:99px}
+footer{position:relative;margin-top:clamp(60px,8vw,110px);padding:24px 0 34px;border-top:1px solid rgba(239,196,182,.18);display:flex;justify-content:space-between;gap:14px;flex-wrap:wrap;font-size:14px;color:#a98a86}
+.wa{position:fixed;right:20px;bottom:20px;z-index:75;width:56px;height:56px;border-radius:50%;background:var(--pink);display:grid;place-items:center;box-shadow:0 14px 30px -8px rgba(223,79,139,.6);transition:transform .4s var(--ease)}.wa:hover{transform:scale(1.08)}.wa svg{width:26px;fill:#fff}
+
+@media(max-width:1000px){
+  nav ul{position:fixed;inset:0;background:var(--paper);color:var(--wine);flex-direction:column;align-items:center;justify-content:center;gap:26px;font-family:var(--display);font-size:28px;font-weight:400;transform:translateY(-100%);transition:transform .7s var(--ease);z-index:-1}
+  nav ul.o{transform:none}.burger{display:block}nav>.pill{display:none}
+  .aboutbox,.voices .grid,.faq .grid,.final .grid{grid-template-columns:1fr}.about .ph{aspect-ratio:16/10}
+  .cards{grid-template-columns:1fr 1fr}.flip{height:360px}
+  .jn{width:min(300px,44vw)}
+  .cols{grid-template-columns:1fr 1fr}.cols .col:nth-child(3){display:none}
+  .hscroll{display:none}
+}
+@media(max-width:700px){
+  .hcopy{bottom:9vh}
+  .cards{grid-template-columns:1fr}.flip{height:300px}
+  .jr{height:auto}.jstick{position:relative;height:auto;padding:90px 5vw 70px}.jhead{position:relative;left:0;top:0;margin-bottom:30px}.jbox{position:relative;left:0;right:0;top:0;bottom:0;display:grid;gap:14px}#jsvg,#orb{display:none}.jn{position:relative;left:0!important;top:0!important;width:auto;opacity:1;transform:none}
+  .about .seal{width:100px;height:100px}.seal b{font-size:24px}
+  .cols{height:auto;grid-template-columns:1fr}.cols .col:nth-child(n){display:grid}.cols .col{transform:none!important}
+  .deck{height:380px}
+}
+@media(prefers-reduced-motion:reduce){*{animation:none!important;transition:none!important}#intro{display:none}.wd>i{transform:none!important}.rev{opacity:1!important;transform:none!important}.about .ph{clip-path:none!important}.jr{height:auto}.jstick{position:relative;height:auto;padding:90px 5vw}.jbox{position:relative;inset:auto;display:grid;gap:14px}#jsvg,#orb{display:none}.jn{position:relative;left:0!important;top:0!important;width:auto;opacity:1;transform:none}}
+</style>
+</head>
+<body class="lock">
+<canvas id="neb" aria-hidden="true" data-b=".984,.965,.953" data-c1="1,1,1" data-c2=".96,.88,.88" data-c3=".93,.80,.76"></canvas>
+
+<div id="intro" aria-hidden="true"><div class="box">
+  <svg viewBox="0 0 60 56"><path pathLength="1" d="M18 4h24l14 18-26 30L4 22z"/><path pathLength="1" d="M4 22h52M18 4l12 18 12-18M30 22v30"/></svg>
+  <div class="sig" id="isig">Alessandra Caldart</div><div class="sb" id="isb">Estética avançada</div></div></div>
+
+<nav id="nav">
+  <a href="#top" class="brand">Alessandra Caldart</a>
+  <ul id="menu"><li><a href="#sobre">Sobre</a></li><li><a href="#tratamentos">Tratamentos</a></li><li><a href="#visita">Sua visita</a></li><li><a href="#espaco">O espaço</a></li><li><a href="#contato">Contato</a></li></ul>
+  <a class="pill" href="https://wa.me/5562991113226?text=Ol%C3%A1%2C%20Alessandra!%20Vim%20pelo%20site%20e%20gostaria%20de%20agendar%20uma%20avalia%C3%A7%C3%A3o." target="_blank" rel="noopener">Agendar avaliação</a>
+  <button class="burger" id="burger" aria-label="Abrir menu"><i></i><i></i></button>
+</nav>
+
+<header class="hero" id="top">
+  <canvas id="gem" aria-hidden="true"></canvas>
+  <div class="hcopy">
+    <div class="kicker">Setor Bueno · Goiânia</div>
+    <h1 data-w id="h1">Estética avançada, com cuidado de verdade.</h1>
+    <p class="lead rev" id="hl">Endermologia, radiofrequência e botox numa clínica acolhedora, onde você é tratada com carinho do começo ao fim.</p>
+    <div class="hrow rev" id="hr"><a class="pill" href="https://wa.me/5562991113226?text=Ol%C3%A1%2C%20Alessandra!%20Vim%20pelo%20site%20e%20gostaria%20de%20agendar%20uma%20avalia%C3%A7%C3%A3o." target="_blank" rel="noopener">Agendar avaliação</a><a class="pill ghost" href="#tratamentos">Ver tratamentos</a><span class="hrate"><b>4,9</b><i>★★★★★</i>54 avaliações no Google</span></div>
+  </div>
+  <div class="hscroll">role</div>
+</header>
+
+<section class="manifest"><p id="mf">Uma clínica acolhedora, equipe atenciosa e resultados que fazem os clientes voltarem e indicarem.</p></section>
+
+<section id="sobre" class="wrap about">
+  <div class="ph" id="aph"><img data-sp src="img/sala.jpg" alt="Sala de procedimentos da clínica"><div class="seal"><svg viewBox="0 0 130 130"><defs><path id="sc" d="M65,65 m-50,0 a50,50 0 1,1 100,0 a50,50 0 1,1 -100,0"/></defs><text><textPath href="#sc">Estética avançada · Setor Bueno · </textPath></text></svg><b>✦</b></div></div>
+  <div class="aboutbox">
+    <h2 data-w>Cuidado individual, em um espaço feito para você</h2>
+    <div class="rev"><p>Clientes de vários anos contam que são tratadas com amor e carinho pela equipe, com conforto e comodidade do começo ao fim. É assim que a Alessandra conduz cada atendimento: com atenção, responsabilidade e muito comprometimento.</p>
+    <ul class="facts">
+      <li><svg class="ic" viewBox="0 0 48 48"><circle cx="17" cy="18" r="5"/><circle cx="32" cy="20" r="4"/><path d="M8 38c0-6 4-10 9-10s9 4 9 10M27 38c0-5 3-8 7-8s7 3 7 8"/></svg><span><b>Equipe atenciosa</b>Cada cliente é tratada com cuidado e carinho.</span></li>
+      <li><svg class="ic" viewBox="0 0 48 48"><path d="M24 38S8 29 8 18a8 8 0 0 1 16-3 8 8 0 0 1 16 3c0 11-16 20-16 20z"/></svg><span><b>Ambiente acolhedor</b>Conforto e comodidade em toda a visita.</span></li>
+      <li><svg class="ic" viewBox="0 0 48 48"><path d="M24 7l4 11 11 4-11 4-4 11-4-11-11-4 11-4z"/></svg><span><b>Resultados que se veem</b>Clientes voltam há anos e indicam.</span></li>
+    </ul></div>
+  </div>
+</section>
+
+<section id="tratamentos" class="wrap treat">
+  <div class="head"><h2 data-w>Tratamentos</h2><p class="sub">Passe o mouse (ou toque) em uma carta para ver o que cada tratamento inclui.</p></div>
+  <div class="cards" id="cards" data-draw>
+    <div class="flip"><div class="fi"><div class="fc"><svg class="ic" viewBox="0 0 64 64"><circle pathLength="1" cx="22" cy="30" r="9"/><circle pathLength="1" cx="42" cy="30" r="9"/><path pathLength="1" d="M8 50c8-6 14 6 24 0s16 6 24 0"/></svg><div><small>Corpo</small><h3>Endermologia</h3></div></div><div class="fb"><h3>Endermologia</h3><ul><li>Modelagem corporal</li><li>Reduzir celulite</li><li>Reduzir medidas</li><li>Empinar glúteos</li></ul><a href="#contato">Agendar</a></div></div></div>
+    <div class="flip"><div class="fi"><div class="fc"><svg class="ic" viewBox="0 0 64 64"><path pathLength="1" d="M20 32a12 12 0 0 1 24 0M14 32a18 18 0 0 1 36 0M8 32a24 24 0 0 1 48 0"/><circle pathLength="1" cx="32" cy="40" r="4"/><path pathLength="1" d="M32 44v12"/></svg><div><small>Corpo e pele</small><h3>Radiofrequência</h3></div></div><div class="fb"><h3>Radiofrequência</h3><ul><li>Glúteos</li><li>Melhora da flacidez</li><li>Melhora do aspecto da pele</li></ul><a href="#contato">Agendar</a></div></div></div>
+    <div class="flip"><div class="fi"><div class="fc"><svg class="ic" viewBox="0 0 64 64"><g transform="rotate(45 32 32)"><path pathLength="1" d="M25 16h14v28H25z"/><path pathLength="1" d="M32 44v12M32 16V6M26 6h12M21 16h22M25 24h5M25 30h5M25 36h5"/></g></svg><div><small>Rosto</small><h3>Botox</h3></div></div><div class="fb"><h3>Botox</h3><ul><li>Suaviza linhas de expressão</li><li>Resultado natural</li><li>Aplicação cuidadosa</li></ul><a href="#contato">Agendar</a></div></div></div>
+    <div class="flip"><div class="fi"><div class="fc"><svg class="ic" viewBox="0 0 64 64"><path pathLength="1" d="M32 8l5 14 14 5-14 5-5 14-5-14-14-5 14-5z"/><path pathLength="1" d="M52 8v8M48 12h8M12 46v8M8 50h8"/></svg><div><small>Rosto e corpo</small><h3>Estética avançada</h3></div></div><div class="fb"><h3>Estética avançada</h3><ul><li>Tratamentos faciais</li><li>Tratamentos corporais</li><li>Avaliação personalizada</li></ul><a href="#contato">Agendar</a></div></div></div>
+  </div>
+</section>
+
+<section id="visita" class="jr">
+  <div class="jstick"><div class="jhead"><h2>Como é a sua visita</h2><p>Role e acompanhe o caminho.</p></div>
+    <div class="jbox" id="jbox">
+      <svg id="jsvg" viewBox="0 0 1200 460" preserveAspectRatio="none"><defs><linearGradient id="jg" x1="0" x2="1"><stop offset="0" stop-color="#efc4b6"/><stop offset="1" stop-color="#df4f8b"/></linearGradient></defs><path id="jpath0" d="M20 380 C240 380 230 110 450 130 S 700 420 850 290 S 1080 90 1180 150"/><path id="jpath" d="M20 380 C240 380 230 110 450 130 S 700 420 850 290 S 1080 90 1180 150"/></svg>
+      <div id="orb"></div>
+      <div class="jn"><div class="n">1</div><b>Recepção</b><p>Você chega a um ambiente acolhedor e é recebida com atenção.</p></div>
+      <div class="jn"><div class="n">2</div><b>Conversa</b><p>Contamos o que é possível e escolhemos o melhor caminho.</p></div>
+      <div class="jn"><div class="n">3</div><b>Procedimento</b><p>Feito com responsabilidade e cuidado pela equipe.</p></div>
+      <div class="jn"><div class="n">4</div><b>Acompanhamento</b><p>Você segue sendo acompanhada, sessão após sessão.</p></div>
+    </div>
+  </div>
+</section>
+
+<section id="espaco" class="wrap gal">
+  <div class="head"><h2 data-w>O espaço</h2><p class="sub">Role para ver as colunas se moverem.</p></div>
+  <div class="cols" id="cols">
+    <div class="col" data-d="-1"><figure style="aspect-ratio:4/5"><img src="img/recepcao2.jpg" alt="Letreiro da recepção" loading="lazy" style="object-position:50% 30%"><figcaption>Letreiro</figcaption></figure><figure style="aspect-ratio:3/2"><img src="img/sala.jpg" alt="Sala" loading="lazy"><figcaption>Sala</figcaption></figure><figure style="aspect-ratio:4/5"><img src="img/time.jpg" alt="Equipe" loading="lazy"><figcaption>Equipe</figcaption></figure></div>
+    <div class="col" data-d="1" style="margin-top:-12vh"><figure style="aspect-ratio:3/2"><img src="img/recepcao.jpg" alt="Recepção" loading="lazy"><figcaption>Recepção</figcaption></figure><figure style="aspect-ratio:4/5"><img src="img/recepcao3.jpg" alt="Recepção" loading="lazy"><figcaption>Recepção</figcaption></figure><figure style="aspect-ratio:3/2"><img src="img/fachada.jpg" alt="Fachada" loading="lazy"><figcaption>Galdino Center</figcaption></figure></div>
+    <div class="col" data-d="-1"><figure style="aspect-ratio:3/2"><img src="img/equipe.jpg" alt="Alessandra e cliente" loading="lazy"><figcaption>Atendimento</figcaption></figure><figure style="aspect-ratio:4/5"><img src="img/time.jpg" alt="Equipe" loading="lazy" style="object-position:50% 30%"><figcaption>Equipe</figcaption></figure><figure style="aspect-ratio:3/2"><img src="img/recepcao2.jpg" alt="Letreiro" loading="lazy"><figcaption>Letreiro</figcaption></figure></div>
+  </div>
+</section>
+
+<section id="vozes" class="wrap voices">
+  <div class="grid">
+    <div><h2 data-w>Quem vem, volta e indica</h2><div class="score"><b>4,9</b><span>★★★★★ · 54 avaliações no Google</span></div><div class="dnav"><button id="dprev" aria-label="Anterior">←</button><button id="dnext" aria-label="Próximo">→</button></div></div>
+    <div class="deck" id="deck">
+      <div class="dc"><div class="st">★★★★★</div><p>“Eu e minha mãe fazemos procedimentos na Caldart há mais de 8 anos, sempre tivemos resultados excelentes.”</p><cite>Isabella Sagrillo</cite></div>
+      <div class="dc"><div class="st">★★★★★</div><p>“Sem dúvidas é a melhor clínica que existe, pelo amor e carinho que elas tratam a gente.”</p><cite>Jehane Ravena</cite></div>
+      <div class="dc"><div class="st">★★★★★</div><p>“Amo o trabalho dessas profissionais incríveis, excelente resultado, muito comprometimento.”</p><cite>Josele Nara Delazeri</cite></div>
+      <div class="dc"><div class="st">★★★★★</div><p>“Sou muito bem tratada toda vez que vou fazer meus procedimentos com as meninas.”</p><cite>Cliente · Google</cite></div>
+    </div>
+  </div>
+</section>
+
+<section class="wrap faq">
+  <div class="grid"><div><h2 data-w>Perguntas frequentes</h2></div>
+  <div class="list">
+    <div class="q open"><button aria-expanded="true">Como faço para agendar?<span class="pm"></span></button><div class="a"><div><p>Pelo WhatsApp (62) 99111-3226. Conte o que você procura e combinamos o melhor horário.</p></div></div></div>
+    <div class="q"><button aria-expanded="false">Quais tratamentos vocês oferecem?<span class="pm"></span></button><div class="a"><div><p>Endermologia, radiofrequência, botox e outros tratamentos faciais e corporais de estética avançada. Chame no WhatsApp para saber qual combina com você.</p></div></div></div>
+    <div class="q"><button aria-expanded="false">Onde fica a clínica?<span class="pm"></span></button><div class="a"><div><p>No Edifício Galdino Center, Rua T-38, Qd 150, Lt 20/22, sala 11, no Setor Bueno, em Goiânia.</p></div></div></div>
+    <div class="q"><button aria-expanded="false">Até que horas vocês atendem?<span class="pm"></span></button><div class="a"><div><p>O atendimento vai até as 19h. Confirme o dia e o horário pelo WhatsApp.</p></div></div></div>
+  </div></div>
+</section>
+
+<section id="contato" class="final">
+  <i class="aur a1"></i><i class="aur a2"></i><i class="aur a3"></i><canvas id="sp2" aria-hidden="true"></canvas>
+  <div class="grid">
+    <div><div class="sig">Alessandra Caldart</div><h2 data-w>Agende a sua visita</h2><p class="t">Chame no WhatsApp, conte o que você sonha para a sua pele e o seu corpo, e a gente cuida do resto.</p><a class="pill" href="https://wa.me/5562991113226?text=Ol%C3%A1%2C%20Alessandra!%20Vim%20pelo%20site%20e%20gostaria%20de%20agendar%20uma%20avalia%C3%A7%C3%A3o." target="_blank" rel="noopener">Chamar no WhatsApp</a></div>
+    <div class="ticket"><div class="r"><small>WhatsApp</small><span>(62) 99111-3226</span></div><div class="r"><small>Endereço</small><span>Edifício Galdino Center, sala 11<br>Setor Bueno · Goiânia</span></div><div class="r" style="border:0;padding:0"><small>Horário</small><span>Atendimento até as 19h</span></div>
+      <div class="mm"><iframe loading="lazy" title="Mapa da clínica" referrerpolicy="no-referrer-when-downgrade" src="https://www.google.com/maps?q=Edif%C3%ADcio+Galdino+Center,+Rua+T-38,+Setor+Bueno,+Goi%C3%A2nia&amp;output=embed"></iframe><a href="https://www.google.com/maps/dir/?api=1&destination=Alessandra+Caldart+Est%C3%A9tica+Goi%C3%A2nia" target="_blank" rel="noopener">Traçar rota</a></div></div>
+  </div>
+  <footer><span>© 2026 Alessandra Caldart · Estética Avançada</span><span>Site por <a href="https://yrastudios.com.br" target="_blank" rel="noopener" style="border-bottom:1px solid currentColor">YRA Studios</a></span></footer>
+</section>
+<a class="wa" href="https://wa.me/5562991113226" target="_blank" rel="noopener" aria-label="WhatsApp"><svg viewBox="0 0 32 32"><path d="M16 3a13 13 0 0 0-11 19.8L3 29l6.4-2A13 13 0 1 0 16 3zm0 2.4A10.6 10.6 0 1 1 9.6 24l-.4-.3-3.7 1.2 1.2-3.6-.3-.4A10.6 10.6 0 0 1 16 5.4zm-4 5.1c-.3 0-.7.1-1 .5-.4.4-1.3 1.3-1.3 3.1s1.4 3.7 1.6 3.9c.2.3 2.6 4.2 6.4 5.7 3.1 1.2 3.8.9 4.5.9.7-.1 2.2-.9 2.5-1.8.3-.9.3-1.6.2-1.8-.1-.2-.3-.3-.7-.5l-2.3-1.1c-.3-.1-.6-.2-.8.2l-1 1.2c-.2.2-.4.3-.7.1-.4-.2-1.4-.5-2.7-1.7-1-.9-1.6-2-1.8-2.3-.2-.4 0-.5.2-.7l.5-.6c.2-.2.2-.4.4-.6.1-.3.1-.5 0-.7l-1-2.4c-.3-.6-.6-.5-.8-.5z"/></svg></a>
+
+<script src="js/gsap.min.js"></script><script src="js/three.min.js"></script><script src="js/neb.js"></script><script src="js/common.js"></script>
+<script>
+(function(){
+const $=(s,c=document)=>c.querySelector(s),$$=(s,c=document)=>[...c.querySelectorAll(s)],reduce=matchMedia('(prefers-reduced-motion:reduce)').matches,clamp=(v,a,b)=>Math.max(a,Math.min(b,v));
+
+/* palavras que saltam */
+$$('[data-w]').forEach(el=>{const t=el.textContent.trim();el.setAttribute('aria-label',t);let i=0;el.innerHTML=t.split(' ').map(w=>`<span class="wd" aria-hidden="true"><i style="--i:${i++}">${w}</i></span>`).join(' ')});
+const io=new IntersectionObserver(es=>es.forEach(e=>{if(e.isIntersecting){e.target.classList.add('in');io.unobserve(e.target)}}),{threshold:.2});
+$$('[data-w],.rev,#cards').forEach(el=>{if(!el.closest('.hcopy'))io.observe(el)});
+new IntersectionObserver((es,o)=>es.forEach(e=>{if(e.isIntersecting){$('#aph').classList.add('in');o.disconnect()}}),{threshold:.15}).observe($('#sobre'));
+
+/* abertura: a joia se desenha */
+function site(){document.body.classList.remove('lock');['#h1','#hl','#hr'].forEach((s,i)=>setTimeout(()=>$(s).classList.add('in'),300+i*350));gsap.from('nav',{opacity:0,duration:1.2,delay:.4});window.__gemIn&&window.__gemIn()}
+if(reduce){$('#intro').style.display='none';document.body.classList.remove('lock');['#h1','#hl','#hr'].forEach(s=>$(s).classList.add('in'))}
+else{gsap.timeline().to('#intro svg path',{strokeDashoffset:0,duration:1.3,ease:'power2.inOut',stagger:.35}).to('#isig',{opacity:1,y:0,duration:.9},'-=.6').to('#isb',{opacity:1,duration:.7},'-=.5').add(site,'+=.3').to('#intro',{opacity:0,duration:.9,onComplete:()=>$('#intro').style.display='none'},'<')}
+
+/* joia 3D no hero */
+(function(){const cv=$('#gem');if(!window.THREE){return}
+  const R=new THREE.WebGLRenderer({canvas:cv,antialias:true,alpha:true,powerPreference:'low-power'});R.setPixelRatio(Math.min(devicePixelRatio||1,1.6));
+  const S=new THREE.Scene(),C=new THREE.PerspectiveCamera(36,1,.1,100);C.position.set(0,0,9);
+  const prof=[[0,-1.5],[1.05,0],[1.05,.14],[.66,.62],[0,.62]].map(p=>new THREE.Vector2(p[0],p[1]));
+  const geo=new THREE.LatheGeometry(prof,8);
+  const mat=new THREE.MeshStandardMaterial({color:0xf09ab9,metalness:.45,roughness:.16,flatShading:true,emissive:0x3a0d22,emissiveIntensity:.5});
+  const gem=new THREE.Group();const m=new THREE.Mesh(geo,mat);gem.add(m);
+  const edges=new THREE.LineSegments(new THREE.EdgesGeometry(geo),new THREE.LineBasicMaterial({color:0xffe3d6,transparent:true,opacity:.55}));gem.add(edges);S.add(gem);
+  S.add(new THREE.AmbientLight(0xffd6e6,.55));
+  const L1=new THREE.PointLight(0xff4f9a,3.2,30),L2=new THREE.PointLight(0xffd1b0,2.6,30),L3=new THREE.PointLight(0xffffff,1.8,30);S.add(L1,L2,L3);
+  const minis=[];for(let i=0;i<7;i++){const g=new THREE.Mesh(geo,mat);const s=.16+Math.random()*.16;g.scale.set(s,s,s);const o=new THREE.Group();o.add(g);o.userData={r:2.4+Math.random()*1.8,a:Math.random()*6.28,sp:.2+Math.random()*.35,y:(Math.random()-.5)*2.6,sx:Math.random()*2};S.add(o);minis.push(o)}
+  const N=220,pos=new Float32Array(N*3);for(let i=0;i<N;i++){pos[i*3]=(Math.random()-.5)*16;pos[i*3+1]=(Math.random()-.5)*9;pos[i*3+2]=(Math.random()-.5)*8}
+  const pg=new THREE.BufferGeometry();pg.setAttribute('position',new THREE.BufferAttribute(pos,3));const pts=new THREE.Points(pg,new THREE.PointsMaterial({color:0xffd9e6,size:.045,transparent:true,opacity:.75}));S.add(pts);
+  let mx=0,my=0,tx=0,ty=0,scale=0.001,intro=0;
+  const place=()=>{const w=cv.clientWidth,h=cv.clientHeight;R.setSize(w,h,false);C.aspect=w/h;C.updateProjectionMatrix();const wide=w>860;gem.position.set(wide?2.0:0,wide?0:1.7,0);const k=wide?.92:.72;gem.userData.k=k};
+  place();addEventListener('resize',place);
+  addEventListener('mousemove',e=>{tx=(e.clientX/innerWidth-.5);ty=(e.clientY/innerHeight-.5)});
+  window.__gemIn=()=>{intro=1};if(reduce)intro=1;
+  const clock=new THREE.Clock();
+  function f(){const t=clock.getElapsedTime();mx+=(tx-mx)*.05;my+=(ty-my)*.05;
+    const sy=clamp(scrollY/innerHeight,0,1);scale+=((intro?1:.001)-scale)*.05;const k=(gem.userData.k||1)*scale*(1-sy*.35);gem.scale.set(k,k,k);
+    gem.rotation.y=t*.5+mx*1.2;gem.rotation.x=.25+my*.6;gem.rotation.z=Math.sin(t*.6)*.08;gem.position.y+=(Math.sin(t*1.1)*.18-gem.position.y*.0)*0;
+    L1.position.set(Math.cos(t*.9)*4.2+gem.position.x,Math.sin(t*.7)*3,3.5);L2.position.set(Math.cos(t*.6+2)*4.5+gem.position.x,Math.sin(t*.8+1)*2.6,-1.5);L3.position.set(gem.position.x-3,3,5);
+    minis.forEach(o=>{const d=o.userData;d.a+=d.sp*.01;o.position.set(gem.position.x+Math.cos(d.a)*d.r,gem.position.y+d.y+Math.sin(t+d.sx)*.2,Math.sin(d.a)*d.r*.6);o.rotation.set(t*.7+d.sx,t*.9,0);o.scale.setScalar(scale)});
+    pts.rotation.y=t*.02+mx*.2;pts.position.y=-sy*1.5;
+    if(!document.hidden)R.render(S,C);if(!reduce)requestAnimationFrame(f)}
+  f();if(reduce){R.render(S,C)}
+})();
+
+/* parallax e foto larga */
+const sps=$$('[data-sp]');function par(){sps.forEach(el=>{const r=el.parentElement.getBoundingClientRect();if(r.bottom<-200||r.top>innerHeight+200)return;el.style.translate=`0 ${((r.top+r.height/2)-innerHeight/2)*-.12}px`})}
+addEventListener('scroll',par,{passive:true});par();
+
+/* cartas: toque vira */
+$$('.flip').forEach(c=>c.addEventListener('click',()=>{if(matchMedia('(hover:none)').matches)c.classList.toggle('on')}));
+
+/* sua visita: orbe percorre o caminho */
+(function(){if(reduce||innerWidth<=700)return;const sec=$('#visita'),path=$('#jpath'),svg=$('#jsvg'),orb=$('#orb'),box=$('#jbox'),ns=$$('.jn'),L=path.getTotalLength();
+  path.style.strokeDasharray=L;path.style.strokeDashoffset=L;
+  const fr=[.0,.3,.6,.88],xs=[0,.26,.52,.76],ys=[.5,.02,.5,.02];
+  function lay(){const bw=box.clientWidth,bh=box.clientHeight;ns.forEach((n,i)=>{const w=n.offsetWidth,h=n.offsetHeight;n.style.left=Math.min(xs[i]*bw,bw-w)+'px';n.style.top=Math.min(ys[i]*bh,bh-h)+'px'})}
+  lay();addEventListener('resize',lay);
+  function up(){const r=sec.getBoundingClientRect(),p=clamp(-r.top/(r.height-innerHeight),0,1);path.style.strokeDashoffset=L*(1-p);
+    const pt=path.getPointAtLength(L*p),bw=box.clientWidth,bh=box.clientHeight;orb.style.transform=`translate(${pt.x*bw/1200}px,${pt.y*bh/460}px)`;
+    ns.forEach((n,i)=>n.classList.toggle('on',p>=fr[i]-.04))}
+  addEventListener('scroll',up,{passive:true});up()})();
+
+/* galeria: colunas correm com a rolagem */
+(function(){if(reduce)return;const cols=$$('#cols .col'),box=$('#cols');function up(){if(innerWidth<=700)return;const r=box.getBoundingClientRect();if(r.bottom<-100||r.top>innerHeight+100)return;const p=((r.top+r.height/2)-innerHeight/2);cols.forEach(c=>c.style.transform=`translateY(${p*.28*(+c.dataset.d)}px)`)}
+  addEventListener('scroll',up,{passive:true});up()})();
+
+/* depoimentos: baralho */
+(function(){const dc=$$('.dc');let order=dc.map((_,i)=>i),t;
+  function paint(){order.forEach((idx,k)=>{const c=dc[idx];c.style.zIndex=10-k;c.style.opacity=k>3?0:1-k*.14;c.style.transform=`translate(${k*22}px,${k*16}px) scale(${1-k*.05}) rotate(${k*1.4}deg)`;c.style.pointerEvents=k===0?'auto':'none'})}
+  const next=()=>{const f=order.shift();const c=dc[f];c.style.transform='translate(-60%,-6%) rotate(-12deg)';c.style.opacity=0;setTimeout(()=>{order.push(f);paint()},500)};
+  const prev=()=>{order.unshift(order.pop());paint()};
+  const loop=()=>{clearInterval(t);t=setInterval(next,6500)};
+  paint();dc.forEach(c=>c.addEventListener('click',()=>{next();loop()}));$('#dnext').onclick=()=>{next();loop()};$('#dprev').onclick=()=>{prev();loop()};loop()})();
+
+/* final: brilhos flutuantes */
+(function(){const c=$('#sp2'),x=c.getContext('2d'),d=Math.min(devicePixelRatio||1,2);let W,H,P=[];const size=()=>{W=c.width=c.offsetWidth*d;H=c.height=c.offsetHeight*d};size();addEventListener('resize',size);
+  for(let i=0;i<40;i++)P.push({x:Math.random(),y:Math.random(),r:Math.random()*2.4+.8,s:Math.random()*.0003+.0001,p:Math.random()*6});
+  (function f(t){x.clearRect(0,0,W,H);for(const p of P){p.y-=p.s;if(p.y<0)p.y=1;const a=(Math.sin(t*.002+p.p)+1)/2;x.fillStyle=`rgba(255,220,232,${.15+a*.6})`;x.beginPath();x.arc(p.x*W,p.y*H,p.r*d,0,6.3);x.fill();if(p.r>2.2){x.strokeStyle=`rgba(255,220,232,${a*.5})`;x.lineWidth=d;x.beginPath();x.moveTo(p.x*W-8*d,p.y*H);x.lineTo(p.x*W+8*d,p.y*H);x.moveTo(p.x*W,p.y*H-8*d);x.lineTo(p.x*W,p.y*H+8*d);x.stroke()}}
+    if(!reduce)requestAnimationFrame(f)})(0)})();
+})();
+</script>
+</body>
+</html>
